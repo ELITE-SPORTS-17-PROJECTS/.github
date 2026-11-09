@@ -1,0 +1,11 @@
+[
+  {"name": "bug", "color": "d73a4a", "description": "Algo no funciona"},
+  {"name": "enhancement", "color": "a2eeef", "description": "Mejora o funcionalidad nueva"},
+  {"name": "documentation", "color": "0075ca", "description": "Documentación"},
+  {"name": "question", "color": "d876e3", "description": "Duda o información que falta"},
+  {"name": "accessibility", "color": "f143ab", "description": "Accesibilidad"},
+  {"name": "qa-hub", "color": "5319e7", "description": "Abierta por qa-hub a partir de un test que falla"},
+  {"name": "duplicate", "color": "cfd3d7", "description": "Ya existe otra issue o PR"},
+  {"name": "invalid", "color": "e4e669", "description": "No es correcta"},
+  {"name": "wontfix", "color": "ffffff", "description": "No se va a hacer"}
+]

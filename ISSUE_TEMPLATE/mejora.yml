@@ -1,0 +1,20 @@
+name: Mejora
+description: Algo nuevo o un cambio en lo que ya hay
+labels: [enhancement]
+body:
+  - type: textarea
+    id: que
+    attributes:
+      label: Qué se quiere
+      description: Lo que debe poder hacer el usuario, no cómo se implementa.
+    validations:
+      required: true
+  - type: textarea
+    id: por-que
+    attributes:
+      label: Para qué
+  - type: textarea
+    id: hecho
+    attributes:
+      label: Está hecho cuando
+      placeholder: "- [ ] …"

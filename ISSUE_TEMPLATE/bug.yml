@@ -1,0 +1,40 @@
+name: Error
+description: Algo no funciona como debería
+labels: [bug]
+body:
+  - type: textarea
+    id: que-pasa
+    attributes:
+      label: Qué pasa
+      description: Lo que ves, con el mensaje de error si lo hay.
+    validations:
+      required: true
+  - type: textarea
+    id: pasos
+    attributes:
+      label: Cómo reproducirlo
+      placeholder: |
+        1. Entrar en…
+        2. Pulsar…
+    validations:
+      required: true
+  - type: textarea
+    id: esperado
+    attributes:
+      label: Qué debería pasar
+  - type: dropdown
+    id: entorno
+    attributes:
+      label: Entorno
+      options: [Producción, Test, Develop, Local]
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Versión, dispositivo o navegador
+      placeholder: "3.10 (15), iPhone 15, iOS 26"
+  - type: textarea
+    id: capturas
+    attributes:
+      label: Capturas o logs
